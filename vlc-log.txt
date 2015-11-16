@@ -1,0 +1,87 @@
+﻿-- logger module started --
+main debug: using interface module "logger"
+main debug: TIMER module_need() : 0.637 ms - Total 0.637 ms / 1 intvls (Avg 0.637 ms)
+main debug: adding item `VLCLOG' ( file:///home/pedro/Documentos/phisolani/scripts/VLCLOG )
+main debug: looking for interface module: 1 candidate
+main debug: rebuilding array of current - root Lista de reprodução
+main debug: rebuild done - 1 items, index -1
+main debug: Creating an input for 'VLCLOG'
+main debug: meta ok for (null), need to fetch art
+main debug: looking for meta fetcher module: 1 candidate
+lua debug: Trying Lua scripts in /home/pedro/.local/share/vlc/lua/meta/fetcher
+lua debug: Trying Lua scripts in /usr/lib/vlc/lua/meta/fetcher
+lua debug: Trying Lua playlist script /usr/lib/vlc/lua/meta/fetcher/tvrage.luac
+main debug: using meta fetcher module "lua"
+main debug: TIMER module_need() : 0.604 ms - Total 0.604 ms / 1 intvls (Avg 0.604 ms)
+main debug: removing module "lua"
+main debug: searching art for VLCLOG
+main debug: looking for art finder module: 2 candidates
+lua debug: Trying Lua scripts in /home/pedro/.local/share/vlc/lua/meta/art
+lua debug: Trying Lua scripts in /usr/lib/vlc/lua/meta/art
+lua debug: Trying Lua playlist script /usr/lib/vlc/lua/meta/art/00_musicbrainz.luac
+lua debug: Trying Lua playlist script /usr/lib/vlc/lua/meta/art/01_googleimage.luac
+lua debug: Trying Lua playlist script /usr/lib/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: Trying Lua playlist script /usr/lib/vlc/lua/meta/art/03_lastfm.luac
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
+main debug: no art finder module matching "any" could be loaded
+main debug: TIMER module_need() : 1.661 ms - Total 1.661 ms / 1 intvls (Avg 1.661 ms)
+main debug: art not found for VLCLOG
+main debug: using interface module "globalhotkeys"
+main debug: TIMER module_need() : 16.761 ms - Total 16.761 ms / 1 intvls (Avg 16.761 ms)
+main: Executando o VLC com a interface padrão. Use 'cvlc' para usar o VLC sem interface.
+main debug: looking for interface module: 6 candidates
+main debug: looking for extension module: 1 candidate
+lua debug: Opening Lua Extension module
+lua debug: Trying Lua scripts in /home/pedro/.local/share/vlc/lua/extensions
+lua debug: Trying Lua scripts in /usr/lib/vlc/lua/extensions
+lua debug: Trying Lua scripts in /usr/share/vlc/lua/extensions
+main debug: using extension module "lua"
+main debug: TIMER module_need() : 1.288 ms - Total 1.288 ms / 1 intvls (Avg 1.288 ms)
+main debug: using interface module "qt4"
+main debug: TIMER module_need() : 440.151 ms - Total 440.151 ms / 1 intvls (Avg 440.151 ms)
+main debug: processing request item: null, node: Lista de reprodução, skip: 0
+main debug: starting playback of the new playlist item
+main debug: resyncing on VLCLOG
+main debug: VLCLOG is at 0
+main debug: creating new input thread
+main debug: Creating an input for 'VLCLOG'
+main debug: using timeshift granularity of 50 MiB, in path '/tmp'
+main debug: `file:///home/pedro/Documentos/phisolani/scripts/VLCLOG' gives access `file' demux `' path `/home/pedro/Documentos/phisolani/scripts/VLCLOG'
+main debug: creating demux: access='file' demux='' location='/home/pedro/Documentos/phisolani/scripts/VLCLOG' file='/home/pedro/Documentos/phisolani/scripts/VLCLOG'
+main debug: looking for access_demux module: 3 candidates
+main debug: no access_demux module matching "file" could be loaded
+main debug: TIMER module_need() : 0.186 ms - Total 0.186 ms / 1 intvls (Avg 0.186 ms)
+main debug: creating access 'file' location='/home/pedro/Documentos/phisolani/scripts/VLCLOG', path='/home/pedro/Documentos/phisolani/scripts/VLCLOG'
+main debug: looking for access module: 2 candidates
+filesystem debug: opening file `/home/pedro/Documentos/phisolani/scripts/VLCLOG'
+filesystem error: cannot open file /home/pedro/Documentos/phisolani/scripts/VLCLOG (No such file or directory)
+main debug: no access module matching "file" could be loaded
+main debug: TIMER module_need() : 0.133 ms - Total 0.133 ms / 1 intvls (Avg 0.133 ms)
+main error: open of `file:///home/pedro/Documentos/phisolani/scripts/VLCLOG' failed
+main debug: dead input
+main debug: changing item without a request (current 0/1)
+main debug: nothing to play
+main debug: exiting
+main debug: deactivating the playlist
+main debug: deactivating the playlist
+main debug: saving Biblioteca de Mídia to file /home/pedro/.local/share/vlc/ml.xspf
+main debug: looking for playlist export module: 1 candidate
+main debug: using playlist export module "export"
+main debug: TIMER module_need() : 0.612 ms - Total 0.612 ms / 1 intvls (Avg 0.612 ms)
+main debug: removing module "export"
+main debug: playlist correctly deactivated
+main debug: removing all services discovery tasks
+main debug: removing all interfaces
+main debug: removing module "qt4"
+qt4 debug: requesting exit...
+qt4 debug: waiting for UI thread...
+qt4 debug: QApp exec() finished
+qt4 debug: Video is not needed anymore
+qt4 debug: Killing extension dialog provider
+qt4 debug: ExtensionsDialogProvider is quitting...
+main debug: removing module "lua"
+lua debug: Deactivating all loaded extensions
+lua debug: All extensions are now deactivated
+main debug: removing module "globalhotkeys"
+main debug: removing module "logger"
+-- logger module stopped --
